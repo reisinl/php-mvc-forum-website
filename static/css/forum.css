@@ -1,0 +1,576 @@
+@charset "UTF-8";
+
+body {
+	line-height: 1.231;
+	color: #252C2F;
+	font: 13px Helvetica, Arial, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+}
+
+body, html {
+	background: url(../images/bg.jpg) no-repeat;
+	font-family: OpenSans, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 1;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	background-attachment:fixed;
+}
+
+.game-forum #wrapper {
+	background: none;
+	margin: -2% 0 0 0
+}
+
+.game-forum .forum-container {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px
+}
+
+#game-header-subnav {
+	width: 85%;
+	margin: 1% auto 0px
+}
+
+#game-header-subnav:before, #game-header-subnav:after {
+	content: " ";
+	display: table
+}
+
+#game-header-subnav:after {
+	clear: both
+}
+
+.profile-detail {
+	width: 60%;
+	margin: 10px 0px 10px 10px;
+}
+
+.profile-image {
+	float: right;
+	margin-top: -140px;
+	margin-right: 10px;
+}
+
+.profile-image img {
+	height: 120px;
+	width: 120px;
+}
+
+.profile-sidebar-widget .profileContainer .profile-acct .username {
+	margin-top: 0;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	border: 1px solid grey;
+}
+
+#vb-page-body.game-forum #game-thread-view {
+	border: none;
+	margin-top: 20px
+}
+
+#breadcrumbs {
+	float: left;
+	min-width: initial;
+	max-width: initial;
+	background: none;
+	padding: 20px 0;
+	width: auto
+}
+
+#breadcrumbs .crumb-link, #breadcrumbs .crumb {
+	color: #000;
+	text-transform: uppercase;
+	font: 12px/20px OpenSans, sans-serif !important
+}
+
+#breadcrumbs .crumb {
+	color: #cacaca
+}
+
+#vb-page-body.game-forum .widget-tabs-nav {
+	background: #BDDFF1 !important;
+	height: 50px !important;
+	border: none !important;
+	margin: 0 !important;
+	text-transform: inherit !important;
+	border-radius: 0 !important
+}
+
+#vb-page-body.game-forum .widget-tabs-nav li {
+	background: #BDDFF1;
+	border: none;
+	line-height: 50px;
+	height: inherit;
+	margin: 0;
+	font-size: 12px;
+	font-family: OpenSans, sans-serif;
+	border-radius: 0
+}
+
+#vb-page-body.game-forum .widget-tabs-nav li a {
+	padding: 0 15px !important;
+	outline: none;
+	background: inherit;
+	text-transform: uppercase
+}
+
+#vb-page-body.game-forum .widget-tabs-nav li.ui-tabs-active {
+	background: #326a9b;
+	margin: 0;
+	overflow: hidden
+}
+
+#vb-page-body.game-forum .conversation-list .list-item {
+	background: #efefefc7 !important;
+	color: #000 !important;
+	box-sizing: border-box;
+	border-top: none;
+	margin-bottom: 20px
+}
+
+#vb-page-body.game-forum .conversation-list {
+	border: none !important
+}
+
+#vb-page-body.game-forum .profile-sidebar-widget {
+	background: none;
+	color: #000;
+	text-transform: uppercase;
+	font: 12px/20px OpenSans, sans-serif;
+	margin-bottom: 20px;
+	border: #cca7a7 solid 1px;
+	border-radius: 20px;
+}
+
+#vb-page-body.game-forum .profile-sidebar-widget  .profile-acct .username
+	{
+	font-family: BurbankBigCondensed-Black, sans-serif;
+	font-size: 40px;
+	margin-top: 0;
+	float: left;
+	line-height: 40px
+}
+
+#vb-page-body.game-forum .profile-sidebar-widget  .profile-acct .usertitle
+	{
+	clear: both;
+	font: 15px/30px OpenSans, sans-serif;
+	font-weight: 500
+}
+
+#vb-page-body.game-forum li.ui-tabs-active a {
+	color: #fff
+}
+
+ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline
+}
+
+ol, ul {
+	list-style: none
+}
+
+.h-left {
+	float: left
+}
+
+a, a:active, a:visited, .b-link, .ui-widget-content a {
+	color: #2379B5;
+	text-decoration: none
+}
+
+.post-date {
+	font-size: 11px;
+	color: #6A6A6A
+}
+
+.ui-tabs {
+	position: relative;
+	padding: .2em
+}
+
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: .2em .2em 0
+}
+
+.ui-tabs .ui-tabs-nav li {
+	float: left;
+	position: relative;
+	margin: 1px .2em 0;
+}
+
+#breadcrumbs .crumb {
+	float: left;
+	padding: 0;
+	color: #9E9D9D
+}
+
+.list-container .list-item .list-item-body {
+	clear: both;
+	padding: 10px 15px 15px 15px
+}
+
+.widget-tabs-nav {
+	height: 26px;
+	padding: 0 !important;
+}
+
+.list-item {
+	border: 0;
+	border-top: 1px solid #C8CCCE;
+	width: 100%;
+	margin: 0;
+	padding-top: 15px;
+	background: #FFF none 0 0;
+	border-radius: 0
+}
+
+.list-item-header {
+	width: 100%;
+	position: relative;
+	margin-left: 15px;
+}
+
+.profile-widget .info {
+	margin-right: 30px
+}
+
+.info {
+	margin-right: 15px;
+	text-align: right
+}
+
+.info .post-date {
+	float: none
+}
+
+#vb-page-body .topic-list-header {
+	line-height: 40px;
+	height: auto;
+	font-family: OpenSans, sans-serif;
+	text-transform: uppercase;
+	padding: 0 12px;
+	background-color: #BDDFF1;
+	color: #000
+}
+
+#vb-page-body.game-forum .topic-list-header {
+	line-height: 40px;
+	height: auto;
+	font-family: OpenSans, sans-serif;
+	text-transform: uppercase;
+	padding: 0 12px;
+	background-color: #BDDFF1;
+	color: #000
+}
+
+#vb-page-body.game-forum .thread-list {
+	background: #efefefc7;
+	padding: 12px;
+	-ms-flex-align: center;
+	align-items: center;
+	line-height: 15px;
+	position: relative;
+	border-bottom: 2px solid #ebebeb
+}
+
+#vb-page-body.game-forum .flex-container {
+	display: -ms-flexbox;
+	display: flex
+}
+
+#vb-page-body.game-forum .cell-topic, #vb-page-body.game-forum .header-topic
+	{
+	-ms-flex: 6;
+	flex: 6;
+	padding: 0
+}
+
+#vb-page-body.game-forum .cell-lastpost, #vb-page-body.game-forum .header-lastpost
+	{
+	border: none;
+	-ms-flex: 3;
+	flex: 3
+}
+
+#vb-page-body.game-forum .cell-views, #vb-page-body.game-forum .header-views,
+	#vb-page-body.game-forum .cell-comments, #vb-page-body.game-forum .header-comments
+	{
+	-ms-flex: 1.5;
+	flex: 1.5
+}
+
+.h-padding-horiz-xxl {
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+.b-post {
+	border: 1px solid #C8CCCE;
+	width: 100%;
+	border-radius: 3px;
+	padding-bottom: 0;
+	background: #C8CCCE none 0 0;
+	position: relative;
+	box-sizing: border-box
+}
+
+.b-post .b-divider--section {
+	display: none
+}
+
+.b-post-attachments {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 5px;
+	padding-left: 9px;
+	color: #838789;
+	border-radius: 3px;
+	border: 1px solid #C8CCCE;
+	background: #F6F6F6;
+	clear: both
+}
+
+.b-toolbar {
+	border: 1px solid #C8CCCE;
+	background: #F3F9FB none 0 0;
+	height: 44px
+}
+
+.post-title {
+	border: 1px solid #C8CCCE;
+	background: #F3F9FB none 0 0;
+	height: 28px;
+	/*margin-top: 1px;*/
+}
+
+.post-title .title {
+	margin: 5px 0px 2px 5px;
+}
+
+.b-toolbar__item {
+	float: left;
+	width: 44px;
+	height: 44px;
+	position: relative;
+	border-right: 1px solid #C8CCCE;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.b-toolbar__item img {
+	width: 45px;
+	height: 45px;
+}
+
+.b-editor {
+	border: 1px solid #AEB3B6;
+	border-top: none;
+	background: #FFF;
+	position: relative
+}
+
+.b-editor textarea {
+	min-height: 80px;
+	height: 100px;
+	width: 100%;
+	resize: none;
+}
+
+.b-editor input {
+	height: 40px;
+	width: 100%;
+}
+
+.b-editor__placeholder {
+	padding: 18px 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 1;
+	cursor: text
+}
+
+.b-button-group {
+	float: right;
+}
+
+.conversation-content .b-post .b-userinfo {
+	padding: 20px;
+	line-height: 20px;
+	position: relative;
+	color: #000;
+	text-align: left;
+	background-color: #efefefc7;
+	border-bottom: 2px solid #cccccc65
+}
+
+.conversation-content .b-post .b-post__body {
+	background: #efefefc7;
+	border-radius: 0;
+	border-bottom: 2px solid #ebebeb;
+	color: #000
+}
+
+.conversation-content .b-post .b-post__body .b-post__content {
+	font: 14px/24px OpenSans, sans-serif;
+	min-height: 180px;
+}
+
+#vb-page-body.game-forum .b-button.b-button--primary {
+	background: #326a9b;
+	color: #fff;
+	height: 35px;
+	margin-top: 3px;
+	border-radius: 10px;
+	width:85px;
+}
+
+.post-btn {
+	width: 85%;
+	margin: 0px auto -10px;
+}
+
+.login-user {
+	float: right;
+	margin-top: 30px;
+}
+
+.make-post-text {
+	height: 200px !important;
+	width: 100%;
+}
+
+.dropbtn {
+	color: white;
+	padding: 6px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #b1b7dcb5;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.confirm {
+	height: 42px;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 6px;
+	text-decoration: left;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+.del-btn {
+    float: right;
+    margin-top: -32px;
+    margin-right: 10px;
+}
+
+.form-message {
+	color:red;
+	margin-top:20px;
+	margin-left: -40px;
+}
+
+.arrow {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 0;
+	margin-left: 5px;
+	opacity: 0.66;
+}
+
+.arrow.asc {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid #fff;
+}
+
+.arrow.desc {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #fff;
+}
+
+.edit-btn,.delete-btn{
+	width:65px;
+	height:20px;
+	font-size: 0.8em;
+}
+
+.language-sw {
+	text-align: center;
+	margin-top: 8em;
+	position:fixed;
+	left:0px;
+	bottom:1em;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.inputor {
+	height: 160px;
+	width: 90%;
+	border: 1px solid #dadada;
+	border-radius: 4px;
+	padding: 5px 8px;
+	outline: 0 none;
+	margin: 10px 0;
+	background: white;
+	font-size: inherit;
+	overflow-y: scroll;
+}
+.inputor:focus {
+	border: 1px solid rgb(6, 150, 247);
+}
+
+ul.doc {
+	list-style:none;
+}
+ul.doc li {
+	display:inline-block;
+	margin: 0 10px;
+}
